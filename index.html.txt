@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Maison Gourmande - Authentieke Franse bakkerij in Bussum. Vers brood, patisserie en ambachtelijke producten sinds 2018. Bezoek onze winkel aan de Huizerweg 26.">
+    <meta name="keywords" content="Franse bakkerij, Bussum, baguette, croissant, patisserie, vers brood, macarons, éclairs">
+    <meta name="author" content="Maison Gourmande B.V.">
+    <meta property="og:title" content="Maison Gourmande - Authentieke Franse Bakkerij Bussum">
+    <meta property="og:description" content="Ambachtelijke Franse bakkerij met vers brood en patisserie. Dagelijks vers gebakken sinds 2018.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="nl_NL">
+    
+    <title>Maison Gourmande - Authentieke Franse Bakkerij Bussum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main" class="skip-to-main">Spring naar hoofdinhoud</a>
+
+    <!-- Header & Navigation -->
+    <header id="header">
+        <nav class="container">
+            <div class="logo">
+                Maison <span>Gourmande</span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Over Ons</a></li>
+                <li><a href="#products">Producten</a></li>
+                <li><a href="#hours">Openingstijden</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main">
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <p class="hero-subtitle">Authentiek Frans sinds 2018</p>
+                        <h1 class="hero-title">Bienvenue chez<br>Maison Gourmande</h1>
+                        <p class="hero-description">
+                            Stap binnen in onze warme, geurige wereld van ambachtelijke Franse bakkunst. 
+                            Elke dag bakken we met passie vers brood en exquise patisserie, 
+                            rechtstreeks uit het hart van de Provence naar Bussum.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#contact" class="btn">Bezoek onze winkel</a>
+                            <a href="tel:035XXXXXXX" class="btn btn-secondary">Bel ons</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="hero-image-placeholder">
+                            [Sfeervolle bakkerij foto]
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section-alternate" id="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text fade-in">
+                        <h2>Over Ons</h2>
+                        <p>
+                            In 2018 opende een gepassioneerde Française uit het pittoreske Avignon de deuren van 
+                            Maison Gourmande in het hart van Bussum. Met jarenlange ervaring in de Franse bakkunst 
+                            bracht zij de authentieke smaken en tradities van Zuid-Frankrijk naar Nederland.
+                        </p>
+                        <p>
+                            Onze filosofie is simpel maar krachtig: alleen de beste ingrediënten, traditionele 
+                            bereidingsmethoden en een onwrikbare toewijding aan versheid. Elk product dat onze 
+                            ovens verlaat, draagt de ziel van de Franse ambacht in zich.
+                        </p>
+                        <div class="about-highlight">
+                            <h3>Versheid staat voorop</h3>
+                            <p>
+                                Wij geloven in zero waste en optimale versheid. Producten van gisteren 
+                                bieden we aan met een aantrekkelijke korting - zo geniet u altijd van 
+                                kwaliteit en draagt u bij aan een duurzame wereld.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about-image fade-in">
+                        <div class="about-image-placeholder">
+                            [Ambachtelijke bakkerij interieur]
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products">
+            <div class="container">
+                <h2>Onze Producten</h2>
+                <p style="text-align: center; max-width: 600px; margin: 0 auto;">
+                    Dagelijks vers gebakken met liefde en vakmanschap
+                </p>
+                <div class="products-grid">
+                    <div class="product-card fade-in">
+                        <p class="product-category">Brood</p>
+                        <h3>Artisanaal Brood</h3>
+                        <ul class="product-items">
+                            <li>Franse Baguette</li>
+                            <li>Pain Complet</li>
+                            <li>Pain de Campagne</li>
+                            <li>Le Rustique</li>
+                        </ul>
+                    </div>
+                    <div class="product-card fade-in">
+                        <p class="product-category">Patisserie</p>
+                        <h3>Zoete Verleidingen</h3>
+                        <ul class="product-items">
+                            <li>Éclairs</li>
+                            <li>Tarte au Citron</li>
+                            <li>Madeleines</li>
+                            <li>Macarons</li>
+                        </ul>
+                    </div>
+                    <div class="product-card fade-in">
+                        <p class="product-category">Hartig</p>
+                        <h3>Savoureux</h3>
+                        <ul class="product-items">
+                            <li>Quiche Lorraine</li>
+                            <li>Quiche aux Légumes</li>
+                            <li>Croissants Salés</li>
+                            <li>Sandwiches Artisanaux</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hours & Info Section -->
+        <section class="section-alternate" id="hours">
+            <div class="container">
+                <h2>Praktische Informatie</h2>
+                <div class="info-cards">
+                    <div class="info-card fade-in">
+                        <div class="info-card-icon">🕐</div>
+                        <h3>Openingstijden</h3>
+                        <table class="hours-table">
+                            <tr>
+                                <td>Maandag - Vrijdag</td>
+                                <td><strong>08:00 - 18:00</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Zaterdag</td>
+                                <td><strong>08:00 - 17:00</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Zondag</td>
+                                <td><strong>Gesloten</strong></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="info-card fade-in">
+                        <div class="info-card-icon">📍</div>
+                        <h3>Locatie</h3>
+                        <p>
+                            <strong>Huizerweg 26</strong><br>
+                            1402 AB Bussum<br>
+                            Nederland
+                        </p>
+                        <p style="margin-top: 1rem;">
+                            <em>Gemakkelijk bereikbaar met auto en OV</em>
+                        </p>
+                    </div>
+                    <div class="info-card fade-in">
+                        <div class="info-card-icon">🥐</div>
+                        <h3>Speciale Service</h3>
+                        <p>
+                            <strong>Bestellingen op maat</strong><br>
+                            Voor feesten en evenementen
+                        </p>
+                        <p style="margin-top: 1rem;">
+                            <em>Neem contact op voor mogelijkheden</em>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <div class="contact-content">
+                    <div class="contact-info fade-in">
+                        <h3>Neem contact met ons op</h3>
+                        <p>We horen graag van u! Of het nu gaat om een bestelling, een vraag of gewoon een praatje over onze passie voor bakken.</p>
+                        
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <div>
+                                <strong>Email</strong><br>
+                                <a href="mailto:info@maisongourmande.nl">info@maisongourmande.nl</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <span class="contact-icon">📞</span>
+                            <div>
+                                <strong>Telefoon</strong><br>
+                                <a href="tel:035XXXXXXX">035-XXX XX XX</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <div>
+                                <strong>Adres</strong><br>
+                                Huizerweg 26, 1402 AB Bussum
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map-container fade-in">
+                        <div class="map-placeholder">
+                            [Interactieve kaart - Bussum locatie]
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Maison Gourmande</h3>
+                    <p>
+                        Authentieke Franse bakkerij in het hart van Bussum. 
+                        Elke dag vers, elke dag met passie.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">f</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Twitter">𝕏</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Snelle Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">Over Ons</a></li>
+                        <li><a href="#products">Producten</a></li>
+                        <li><a href="#hours">Openingstijden</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Informatie</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacybeleid</a></li>
+                        <li><a href="#">Algemene Voorwaarden</a></li>
+                        <li><a href="#">Allergenen Info</a></li>
+                        <li><a href="#">Werken bij ons</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Maison Gourmande B.V. | KvK: 12345678 | Alle rechten voorbehouden</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
